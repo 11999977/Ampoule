@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* corps */
+body{
+  background-color: #101010;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+/* Light */
+.light{
+  height: 500px;
+  width: 400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Ampoule */
+.ampoule{
+  height: 150px;
+  width: 150px;
+  border-top-right-radius: 100%;
+  border-top-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  border-bottom-left-radius: 50%;
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  transform: rotate(-45deg);
+  background-color: rgb(255, 225, 0);
+  z-index: 1;
+  
+}
+
+.ampoule2{
+  display: none;
+  height: 150px;
+  width: 150px;
+  border-top-right-radius: 100%;
+  border-top-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  border-bottom-left-radius: 50%;
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  transform: rotate(-45deg);
+  background-color: rgb(255, 225, 0);
+  z-index: 1;
+  box-shadow: 0px 0px 20px 5px rgb(255, 226, 3),
+  0px 0px 60px 10px rgba(237, 237, 41, 0.98),
+  0px 0px 120px 25px rgba(239, 239, 99, 0.98),
+  0px 0px 180px 55px rgba(240, 240, 156, 0.98),
+  0px 0px 200px 60px rgba(254, 254, 237, 0.98);
+}
+
+/* filament */
+ /* .filament{
+  background-color: rgb(164, 164, 20);
+  height: 70px;
+  width: 5px;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 54px;
+  top: 58px;
+  filter: blur(80%);
+  
+ } */
+/* douille */
+
+.douille{
+  background-color: rgba(152, 149, 148, 0.733);
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: 170px;
+  top: 265px;
+  border-top-right-radius: 30%;
+  border-top-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+}
+
+#off{
+
+  position: absolute;
+  bottom: 100px;
+  left: 215px;
+  width: 80px;
+  height: 50px;
+  border-radius: 100%;
+  border: 1px solid white;
+  background-color: rgb(16, 74, 16);
+  cursor: pointer;
+}
+
+.bouton{
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#on{
+  position: absolute;
+  bottom: 100px;
+  left: 105px;
+  width: 80px;
+  height: 50px;
+  border-radius: 100%;
+  border: 1px solid white;
+  background-color: rgb(16, 74, 16);
+  cursor: pointer;
+}
